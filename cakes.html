@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes | FABBY'S CAKES</title>
+    <meta name="description" content="FABBY'S CAKES bakes custom birthday, wedding, graduation and everyday cakes in Nairobi. Browse the menu and place your order today.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span>Freshly baked for your sweetest moments</span>
+            <span class="topbar-contact">Nairobi, Kenya <i>•</i> <a data-phone href="tel:+254700000000">+254 700 000 000</a></span>
+        </div>
+    </div>
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="brand"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l1.8-6.2c.3-1 1.2-1.8 2.3-1.8h7.8c1.1 0 2 .7 2.3 1.8L20 12" stroke="#E84393" stroke-width="1.6" stroke-linecap="round" /><path d="M3 12h18v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6z" stroke="#3B1751" stroke-width="1.6" stroke-linejoin="round" /><circle cx="12" cy="6" r="1.4" fill="#D9A441" /></svg> FABBY'S CAKES</a>
+            <ul class="nav-links"><li><a href="index.html">Home</a></li><li class="has-menu"><a href="cakes.html" aria-current="page">Cakes</a><ul class="dropdown"><li><a href="cakes.html?cat=Birthday">Birthday</a></li><li><a href="cakes.html?cat=Wedding">Wedding</a></li><li><a href="cakes.html?cat=Graduation">Graduation</a></li><li><a href="cakes.html?cat=Custom%20made">Custom made</a></li></ul></li><li><a href="order.html">Order</a></li><li><a href="contact.html">Contact</a></li><li><a href="about.html">About</a></li></ul>
+            <div class="nav-cta">
+                <a href="order.html" class="btn btn-outline">Place an order</a>
+                <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="menu-intro"><div class="container">
+            <h1>Our Cakes</h1>
+            <p>Welcome to FABBY'S CAKES, where every cake is a masterpiece of flavor and artistry! Pick a type below to see the cakes.</p>
+            <div class="chips" id="cat-chips"></div>
+        </div></section>
+        <section class="menu-category" data-cat="Birthday"><div class="container">
+            <h2>Birthday Cakes</h2><p class="cat-note muted">Celebrate your special moments with our delicious birthday cakes, designed to make every birthday unforgettable.</p>
+            <div class="cake-grid" data-list="Birthday"></div>
+        </div></section>
+        <section class="menu-category" data-cat="Wedding"><div class="container">
+            <h2>Wedding Cakes</h2><p class="cat-note muted">Make your big day even more special with our beautiful wedding cakes, crafted to perfection for your dream wedding.</p>
+            <div class="cake-grid" data-list="Wedding"></div>
+        </div></section>
+        <section class="menu-category" data-cat="Graduation"><div class="container">
+            <h2>Graduation Cakes</h2><p class="cat-note muted">Celebrate academic achievements with our custom graduation cakes, designed to honor your hard work and success.</p>
+            <div class="cake-grid" data-list="Graduation"></div>
+        </div></section>
+        <section class="menu-category" data-cat="Custom made"><div class="container">
+            <h2>Custom made Cakes</h2><p class="cat-note muted">Have a unique idea in mind? Our custom made cakes are tailored to your specifications, ensuring a one-of-a-kind creation for any occasion.</p>
+            <div class="cake-grid" data-list="Custom made"></div>
+        </div></section>
+        <section class="menu-category" id="flavour-section"><div class="container">
+            <h2>Flavours we bake</h2><p class="cat-note muted">Choose any flavour for your cake when you order.</p>
+            <div class="flavour-list" id="flavours"></div>
+        </div></section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><h4>FABBY'S CAKES</h4><p style="color:#F9EAF4; opacity:0.85;">Handmade cakes baked fresh in Nairobi, for birthdays, weddings and everyday sweetness.</p></div>
+                <div><h4>Explore</h4><ul>
+                    <li><a href="cakes.html">Full menu</a></li><li><a href="order.html">Place an order</a></li>
+                    <li><a href="contact.html">Contact us</a></li><li><a href="about.html">About us</a></li></ul></div>
+                <div><h4>Get in touch</h4><ul>
+                    <li><a data-phone href="tel:+254700000000">+254 700 000 000</a></li>
+                    <li><a data-email href="mailto:hello@fabbycakes.co.ke">hello@fabbycakes.co.ke</a></li>
+                    <li>Nairobi, Kenya</li></ul></div>
+            </div>
+            <div class="footer-bottom"><span>&copy; 2026 FABBY'S CAKES. All rights reserved.</span><span><a href="admin.html">Admin</a></span></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
